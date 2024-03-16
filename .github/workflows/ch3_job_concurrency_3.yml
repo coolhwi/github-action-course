@@ -35,7 +35,6 @@ jobs:
   job-3:
     name: Concurrency Job Test 3
     runs-on: ubuntu-latest
-    concurrency:
     steps:
     - id: checkout
       name: Checkout 
